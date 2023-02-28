@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card
+{
+    max-width: 416px;
+    background: hsl(225, 100%, 98%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+main img
+{
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+
+div.titulo
+{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: hsl(223, 47%, 23%);
+}
+
+
+div.text
+{
+    color: gray;
+}
+
+div.plano
+{
+    background: hsl(225, 100%, 94%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 1rem;
+    width: 350px;
+    height: 75px;
+    padding: 1.5rem 1rem;
+    margin: 2rem 0;
+}
+
+div.preco
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.preco h1
+{
+    color: hsl(223, 47%, 23%);
+    font-size: 20px;
+}
+
+div.preco p
+{
+    color: gray;
+}
+
+main button
+{
+    width: 75%;
+    cursor: pointer;
+    border: none;
+    color: white;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    background: hsl(245, 75%, 52%);
+    font-weight: 600;
+    padding: 1rem 0;
+}
+
+main button:hover
+{
+    background: #766CF1;
+}
+
+#cancelar
+{
+    margin-bottom: 2rem;
+    color: gray;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+#cancelar:hover
+{
+    color: hsl(223, 47%, 23%);
+}
